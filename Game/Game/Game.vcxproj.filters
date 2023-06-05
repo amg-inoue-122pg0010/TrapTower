@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Object">
+      <UniqueIdentifier>{59940b99-5311-4b47-b0ad-858b6b962b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ModeInGame">
+      <UniqueIdentifier>{cfde0542-0e8e-478f-92a1-dae198f13a6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ModeOutGame">
+      <UniqueIdentifier>{ddd0479b-c4a8-4fae-9fed-2c19281a3273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Application">
+      <UniqueIdentifier>{dfb0ba23-f440-45c5-89b9-a4dbd5842a19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\ModeAmgLogo.cpp">
+      <Filter>ソース ファイル\ModeOutGame</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeGameClear.cpp">
+      <Filter>ソース ファイル\ModeOutGame</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeGameOver.cpp">
+      <Filter>ソース ファイル\ModeOutGame</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeStageSelect.cpp">
+      <Filter>ソース ファイル\ModeOutGame</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeTitle.cpp">
+      <Filter>ソース ファイル\ModeOutGame</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gimmick.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LaserCollisionBase.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectBase.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Player.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeGame.cpp">
+      <Filter>ソース ファイル\ModeInGame</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModeMenu.cpp">
+      <Filter>ソース ファイル\ModeInGame</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModePause.cpp">
+      <Filter>ソース ファイル\ModeInGame</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ApplicationGlobal.cpp">
+      <Filter>ソース ファイル\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ApplicationMain.cpp">
+      <Filter>ソース ファイル\Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\ModeGame.h">
+      <Filter>ソース ファイル\ModeInGame</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModePause.h">
+      <Filter>ソース ファイル\ModeInGame</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeMenu.h">
+      <Filter>ソース ファイル\ModeInGame</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeAmgLogo.h">
+      <Filter>ソース ファイル\ModeOutGame</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeGameClear.h">
+      <Filter>ソース ファイル\ModeOutGame</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeGameOver.h">
+      <Filter>ソース ファイル\ModeOutGame</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeStageSelect.h">
+      <Filter>ソース ファイル\ModeOutGame</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModeTitle.h">
+      <Filter>ソース ファイル\ModeOutGame</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Player.h">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gimmick.h">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LaserCollisionBase.h">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ObjectBase.h">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ApplicationMain.h">
+      <Filter>ソース ファイル\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ApplicationGlobal.h">
+      <Filter>ソース ファイル\Application</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
