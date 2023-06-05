@@ -361,3 +361,13 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+Dxlib
+
+res
+
+Laser.json
+
+Player.json
+
+trap.json
