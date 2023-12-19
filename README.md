@@ -23,32 +23,31 @@ ProjectRoot
 │  │  Vector3D.h
 │  │  
 │  ├─source
-│  │  │  appframe.h
-│  │  │  
-│  │  ├─Application
-│  │  │      ApplicationBase.cpp
-│  │  │      ApplicationBase.h
-│  │  │      UtilMacro.h
-│  │  │      WinMain.cpp
-│  │  │      
-│  │  ├─CFile
-│  │  │      CFile.cpp
-│  │  │      CFile.h
-│  │  │      picojson.h
-│  │  │      utf8sjis.cpp
-│  │  │      utf8sjis.h
-│  │  │      
-│  │  ├─Mode
-│  │  │      ModeBase.cpp
-│  │  │      ModeBase.h
-│  │  │      ModeServer.cpp
-│  │  │      ModeServer.h
-│  │  │      
-│  │  └─ResourceServer
-│  │          ResourceServer.cpp
-│  │          ResourceServer.h
-│  │          
-│                  
+│     │  appframe.h
+│     │  
+│     ├─Application
+│     │      ApplicationBase.cpp
+│     │      ApplicationBase.h
+│     │      UtilMacro.h
+│     │      WinMain.cpp
+│     │
+│     ├─CFile
+│     │      CFile.cpp
+│     │      CFile.h
+│     │      picojson.h
+│     │      utf8sjis.cpp
+│     │      utf8sjis.h
+│     │
+│     ├─Mode
+│     │      ModeBase.cpp
+│     │      ModeBase.h
+│     │      ModeServer.cpp
+│     │      ModeServer.h
+│     │
+│     └─ResourceServer
+│             ResourceServer.cpp
+│             ResourceServer.h
+│
 ├─Game
 │  ├─Game
 │      │  trap.json　（Excelから生成した、座標や種類等の情報を格納した.jsouファイル）
@@ -83,13 +82,9 @@ ProjectRoot
 │      │      Gimmick.h
 │      │      Player.cpp
 │      │      Player.h
-│      │      
-│      │              
+│      │
+│      │
 │      └─res　（ゲームに使う画像やモデルなどを格納）
-│        
-│                          
+│
+│
 └─Dxlib（DX ライブラリ格納ディレクトリ）
-       
-        
-
-
